@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/AppTheme">
+
+    <Button
+        android:id="@+id/cancelHomework"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/hw_dialog_button_height"
+        android:layout_marginStart="@dimen/hw_dialog_button_marginLeft"
+        android:layout_marginLeft="@dimen/hw_dialog_button_marginLeft"
+        android:layout_marginTop="@dimen/hw_dialog_button_marginTop"
+        android:layout_marginEnd="@dimen/hw_dialog_button_marginEnd"
+        android:layout_marginRight="@dimen/hw_dialog_button_marginEnd"
+        android:layout_marginBottom="@dimen/hw_dialog_button_marginBot"
+        android:background="@drawable/circle_button_yellow"
+        android:text="Cancel"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hw_dialog_guide_end"
+        app:layout_constraintStart_toStartOf="@+id/hw_dialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/addHomework" />
+
+    <android.support.design.widget.TextInputLayout
+
+        android:id="@+id/hw_dialog_title_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/hw_dialog_title_margin_start"
+        android:layout_marginLeft="@dimen/hw_dialog_title_margin_start"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/hw_dialog_title_margin_end"
+        android:layout_marginRight="@dimen/hw_dialog_title_margin_end"
+        app:boxBackgroundColor="@android:color/transparent"
+        app:boxBackgroundMode="filled"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:boxStrokeWidth="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/hw_dialog_guide_end"
+        app:layout_constraintStart_toStartOf="@+id/hw_dialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/priority">
+
+        <EditText
+
+            android:id="@+id/hw_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/hw_dialog_title_hint"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/hw_dialog_linear_spinner_marginLeft"
+        android:layout_marginLeft="@dimen/hw_dialog_linear_spinner_marginLeft"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="@dimen/hw_dialog_linear_spinner_marginEnd"
+        android:layout_marginRight="@dimen/hw_dialog_linear_spinner_marginEnd"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toStartOf="@+id/hw_dialog_guide_end"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/hw_dialog_guide_start"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/hw_dialog_material_spinner"
+            android:layout_width="0dp"
+            android:layout_height="63dp"
+            android:layout_weight="2.5"
+            android:background="@drawable/circle_button" />
+
+        <ImageView
+            android:id="@+id/hw_dialog_material_spinner_arrow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/hw_dialog_homework_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/hw_dialog_homework_margin_start"
+        android:layout_marginLeft="@dimen/hw_dialog_homework_margin_start"
+        android:layout_marginTop="@dimen/hw_dialog_homework_margin_top"
+        android:layout_marginEnd="@dimen/hw_dialog_homework_margin_end"
+        android:layout_marginRight="@dimen/hw_dialog_homework_margin_end"
+        android:layout_marginBottom="@dimen/hw_dialog_homework_margin_bottom"
+        android:gravity="top"
+        app:boxBackgroundColor="@android:color/transparent"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxStrokeColor="@color/primaryDark2"
+        app:boxStrokeWidth="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/addHomework"
+        app:layout_constraintEnd_toStartOf="@+id/hw_dialog_guide_end"
+        app:layout_constraintStart_toStartOf="@+id/hw_dialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/hw_dialog_title_layout">
+
+        <EditText
+            android:id="@+id/hw_dialog_homework"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/homework_hint"
+            android:textColor="@android:color/white"
+            android:inputType="textMultiLine" />
+    </android.support.design.widget.TextInputLayout>
+
+    <include
+
+        android:id="@+id/toolBar"
+        layout="@layout/toolbar" />
+
+    <Button
+        android:id="@+id/addHomework"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/hw_dialog_button_height"
+        android:layout_marginStart="@dimen/hw_dialog_button_marginLeft"
+        android:layout_marginLeft="@dimen/hw_dialog_button_marginLeft"
+        android:layout_marginEnd="@dimen/hw_dialog_button_marginEnd"
+        android:layout_marginRight="@dimen/hw_dialog_button_marginEnd"
+        android:layout_marginBottom="@dimen/hw_dialog_buttonAdd_marginBot"
+        android:background="@drawable/circle_button_yellow"
+        android:text="@string/add"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hw_dialog_guide_end"
+        app:layout_constraintStart_toStartOf="@+id/hw_dialog_guide_start" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/hw_dialog_guide_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/hw_dialog_guide_begin" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/hw_dialog_guide_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/hw_dialog_guide_end" />
+
+    <com.warkiz.widget.IndicatorStayLayout
+        android:id="@+id/priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/hw_dialog_guide_end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/prioritySeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="2"
+            app:isb_indicator_color="@color/colorAccent"
+            app:isb_indicator_text_color="@android:color/white"
+            app:isb_indicator_text_size="18sp"
+            app:isb_show_indicator="rectangle"
+            app:isb_show_thumb_text="false"
+            app:isb_show_tick_marks_type="oval"
+            app:isb_show_tick_texts="true"
+            app:isb_thumb_color="@color/primaryDark2"
+            app:isb_tick_marks_color="@android:color/transparent"
+            app:isb_tick_texts_array="@array/seekBar_priority"
+            app:isb_tick_texts_color="@android:color/white"
+            app:isb_tick_texts_typeface="serif"
+            app:isb_ticks_count="3"
+            app:isb_track_progress_color="@color/primaryDark2"
+            app:isb_track_progress_size="2dp" />
+    </com.warkiz.widget.IndicatorStayLayout>
+
+</android.support.constraint.ConstraintLayout>

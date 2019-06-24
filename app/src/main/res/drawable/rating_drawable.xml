@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background"
+        android:gravity="center_vertical">
+        <bitmap
+            android:src="@drawable/highlighter"
+            android:tint="?attr/colorControlNormal" />
+    </item>
+    <item android:id="@android:id/secondaryProgress"
+        android:gravity="center_vertical">
+        <bitmap
+            android:src="@drawable/highlighter"
+            android:tint="?attr/colorControlActivated" />
+    </item>
+    <item android:id="@android:id/progress"
+        android:gravity="center_vertical">
+        <bitmap
+            android:src="@drawable/highlighter"
+            android:tint="?attr/colorControlActivated"
+            />
+    </item>
+</layer-list>

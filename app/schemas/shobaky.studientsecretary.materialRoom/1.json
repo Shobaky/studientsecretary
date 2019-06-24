@@ -1,0 +1,93 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "69ee6835853dd6a171d7856b6407611b",
+    "entities": [
+      {
+        "tableName": "Material",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `Name` TEXT, `Book1` TEXT, `Book2` TEXT, `Book3` TEXT, `Icon` TEXT, `Difficulty` INTEGER NOT NULL, `book1Pages` TEXT, `book2Pages` TEXT, `book3Pages` TEXT, `notesReminder` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "Name",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "book1",
+            "columnName": "Book1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "book2",
+            "columnName": "Book2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "book3",
+            "columnName": "Book3",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "iconName",
+            "columnName": "Icon",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Difficulty",
+            "columnName": "Difficulty",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pages1",
+            "columnName": "book1Pages",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "pages2",
+            "columnName": "book2Pages",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "pages3",
+            "columnName": "book3Pages",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "notes",
+            "columnName": "notesReminder",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"69ee6835853dd6a171d7856b6407611b\")"
+    ]
+  }
+}

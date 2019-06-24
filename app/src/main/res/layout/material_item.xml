@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/materialImage"
+        android:layout_width="@dimen/material_icon_width_height"
+        android:layout_height="@dimen/material_icon_width_height"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@android:color/black"
+        android:focusable="false" android:focusableInTouchMode="false"
+        />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/removeMaterialButton"
+        android:layout_width="@dimen/delete_material_width_height"
+        android:layout_height="@dimen/delete_material_width_height"
+        android:layout_marginEnd="@dimen/delete_material_margin_end"
+        android:layout_marginRight="@dimen/delete_material_margin_end"
+        android:background="@drawable/red_circle_button"
+        app:srcCompat="@drawable/ic_clear_black_24dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="false" android:focusableInTouchMode="false"/>
+</android.support.constraint.ConstraintLayout>
+
+

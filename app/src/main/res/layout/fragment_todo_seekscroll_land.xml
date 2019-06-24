@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/hw_dialog_material_spinner"
+            android:layout_width="0dp"
+            android:layout_height="63dp"
+            android:layout_weight="2.5"
+            android:background="@drawable/circle_button_primarydark" />
+
+        <ImageView
+            android:id="@+id/hw_dialog_material_spinner_arrow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            app:srcCompat="@drawable/ic_arrow_drop_down_circle_black_24dp" />
+    </LinearLayout>
+
+
+    <com.warkiz.widget.IndicatorStayLayout
+        android:id="@+id/priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/prioritySeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="2"
+            app:isb_indicator_color="@color/colorPrimaryDark"
+            app:isb_indicator_text_color="@android:color/white"
+            app:isb_indicator_text_size="18sp"
+            app:isb_show_indicator="rectangle"
+            app:isb_show_thumb_text="false"
+            app:isb_show_tick_marks_type="oval"
+            app:isb_show_tick_texts="true"
+            app:isb_thumb_color="@color/colorPrimaryDark"
+            app:isb_tick_marks_color="@android:color/transparent"
+            app:isb_tick_texts_array="@array/seekBar_priority"
+            app:isb_tick_texts_color="@color/colorPrimary"
+            app:isb_tick_texts_typeface="serif"
+            app:isb_ticks_count="3"
+            app:isb_track_background_color="@android:color/white"
+            app:isb_track_progress_color="@color/colorPrimaryDark"
+            app:isb_track_progress_size="2dp" />
+    </com.warkiz.widget.IndicatorStayLayout>
+
+
+</android.support.constraint.ConstraintLayout>

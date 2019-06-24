@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5e35b1</color>
+    <color name="colorPrimaryDark">#311b92</color>
+    <color name="colorAccent">#ffe100</color>
+    <color name="primary_text_holo_light">#80ffffff</color>
+    <color name="primaryDark2">#ffd600</color>
+    <color name="primaryStudy">#FF0000</color>
+    <color name="primaryDarkStudy">#8B0000</color>
+    <color name="primarySettings">#0000b2</color>
+    <color name="primaryDarkSettings">#00008B</color>
+
+
+</resources>

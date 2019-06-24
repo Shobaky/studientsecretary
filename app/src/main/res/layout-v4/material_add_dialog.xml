@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/material_dialog_parent"
+    android:background="@drawable/material_dialog_background">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/materialNameLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_input_margin_start"
+        android:layout_marginLeft="@dimen/text_input_margin_start"
+        android:layout_marginTop="@dimen/text_input_margin_top"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/materialAddDialog_guide_start"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/material_name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/book1layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/book_input_margin_top"
+        android:layout_marginEnd="@dimen/book_input_margin_end"
+        android:layout_marginRight="@dimen/book_input_margin_end"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="@dimen/book_input_margin_end"
+        app:layout_constraintEnd_toStartOf="@+id/page_book_guide"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/bookAdd"
+        app:layout_constraintTop_toBottomOf="@+id/materialNameLayout">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/book_1_name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/book2layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="@dimen/book_input_margin_top"
+        android:layout_marginEnd="@dimen/book_input_margin_end"
+        android:layout_marginRight="@dimen/book_input_margin_end"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/page_book_guide"
+        app:layout_constraintStart_toEndOf="@+id/bookAdd"
+        app:layout_constraintTop_toBottomOf="@+id/materialNameLayout">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/book_2_name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/book3layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="@dimen/book_input_margin_top"
+        android:layout_marginEnd="@dimen/book_input_margin_end"
+        android:layout_marginRight="@dimen/book_input_margin_end"
+        android:visibility="invisible"
+
+        app:layout_constraintEnd_toStartOf="@+id/page_book_guide"
+        app:layout_constraintStart_toEndOf="@+id/bookAdd"
+        app:layout_constraintTop_toBottomOf="@+id/materialNameLayout">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/book_3_name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/page1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/page_layout_margin_top"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/page_book_guide"
+        app:layout_constraintTop_toBottomOf="@+id/materialNameLayout">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pages"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/page2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/page_layout_margin_top"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/page_book_guide"
+        app:layout_constraintTop_toBottomOf="@+id/materialNameLayout">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pages"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/page3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/page_layout_margin_top"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/page_book_guide"
+        app:layout_constraintTop_toBottomOf="@+id/materialNameLayout">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pages"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/bookAdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/book_add_margin_start"
+        android:layout_marginLeft="@dimen/book_add_margin_start"
+        android:layout_marginTop="@dimen/book_add_margin_top"
+        android:layout_marginBottom="@dimen/book_add_margin_bottom"
+        android:background="@drawable/red_circle_button"
+        app:srcCompat="@drawable/ic_add_yellow_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/book1layout"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintStart_toStartOf="@+id/materialAddDialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/materialNameLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <SeekBar
+        android:id="@+id/materialAddSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/seekBar_margin_start"
+        android:layout_marginLeft="@dimen/seekBar_margin_start"
+        android:layout_marginTop="@dimen/seekBar_margin_top"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:max="2"
+        app:layout_constraintEnd_toStartOf="@+id/materialAdd_end_guide"
+        app:layout_constraintStart_toStartOf="@+id/materialAddDialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/materialDif" />
+
+    <ScrollView
+        android:id="@+id/materialAddScroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/material_add_scroll_margin_start"
+        android:layout_marginLeft="@dimen/material_add_scroll_margin_start"
+        android:layout_marginTop="@dimen/material_add_scroll_margin_top"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="@dimen/material_add_scroll_margin_bottom"
+        android:background="@drawable/material_add_scroll_background"
+        android:clickable="true"
+        android:fillViewport="true"
+        android:paddingBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/materialAddDialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/materialAddSeekBar">
+
+        <GridView
+            android:id="@+id/iconsGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/material_add_icons_grid_margin_start"
+            android:layout_marginLeft="@dimen/material_add_icons_grid_margin_start"
+            android:layout_marginTop="@dimen/material_add_icons_grid_margin_top"
+            android:layout_marginEnd="@dimen/material_add_icons_grid_margin_end"
+            android:layout_marginRight="@dimen/material_add_icons_grid_margin_end"
+            android:gravity="center"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/material_add_iconsGrid_verSp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/materialDif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/material_diff_margin_start"
+        android:layout_marginLeft="@dimen/material_diff_margin_start"
+        android:layout_marginTop="@dimen/material_diff_margin_top"
+        android:layout_marginBottom="@dimen/material_diff_margin_bottom"
+        android:hint="@string/material_difficulty"
+        app:layout_constraintStart_toStartOf="@+id/materialAddDialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/book2layout" />
+
+    <Button
+        android:id="@+id/addMaterialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="@dimen/material_add_button_marginBottom"
+        android:background="@android:color/transparent"
+        android:text="@string/add"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialAddScroll" />
+
+    <Button
+        android:id="@+id/cancelMaterialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/material_add_button_marginEnd"
+        android:layout_marginRight="@dimen/material_add_button_marginEnd"
+        android:layout_marginBottom="@dimen/material_add_button_marginBottom"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:text="@string/cancel"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/addMaterialButton"
+        app:layout_constraintTop_toBottomOf="@+id/materialAddScroll" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/material_icon_margin_start"
+        android:layout_marginLeft="@dimen/material_icon_margin_start"
+        android:layout_marginTop="@dimen/material_icon_margin_top"
+        android:layout_marginBottom="@dimen/material_icon_margin_bottom"
+        android:hint="@string/material_icon"
+        app:layout_constraintBottom_toTopOf="@+id/materialAddScroll"
+        app:layout_constraintStart_toStartOf="@+id/materialAddDialog_guide_start"
+        app:layout_constraintTop_toBottomOf="@+id/materialAddSeekBar" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/materialAddDialog_guide_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.0" />
+    <android.support.constraint.Guideline
+        android:id="@+id/materialAdd_end_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.96" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/page_book_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6979167" />
+
+    <ImageView
+        android:id="@+id/uploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialAddScroll"
+        app:layout_constraintEnd_toStartOf="@+id/materialAdd_end_guide"
+        app:srcCompat="@drawable/ic_photo_library_black_24dp" />
+</android.support.constraint.ConstraintLayout>

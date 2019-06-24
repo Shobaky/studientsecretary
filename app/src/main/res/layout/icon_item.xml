@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="85dp"
+    android:layout_height="85dp"
+    android:background="@drawable/icon_border"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/materialDialogIconItem"
+        android:layout_height="@dimen/materialDialogIconItem"
+        android:id="@+id/imageView"
+       />
+</FrameLayout>
+

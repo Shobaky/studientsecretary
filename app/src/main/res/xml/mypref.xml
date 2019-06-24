@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+       android:title="Reminders"
+        android:key="Reminders" />
+    <SwitchPreference
+        android:title="Notes Reminder"
+        android:defaultValue="true"
+        android:icon="@drawable/ic_note_black_24dp"
+        android:key="Notes reminder"
+        />
+
+    <PreferenceCategory
+        android:title="Profile"
+        />
+    <EditTextPreference
+        android:title="Your name"
+        android:key="name pref"
+        android:icon="@drawable/ic_texture_black_24dp"
+        android:dialogTitle="Change your name"
+        android:inputType="textPersonName"
+        android:focusable="auto" />
+    <Preference
+        android:title="Your image"
+        android:summary="click to change"
+        android:icon="@drawable/ic_image_black_24dp"
+        android:key="image"/>
+
+</PreferenceScreen>

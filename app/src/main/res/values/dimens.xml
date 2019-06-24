@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--sign_up_activity portrait dimens-->
+    <dimen name = "profile_picture_margin_top">16dp</dimen>
+    <dimen name = "profile_picture_margin_bottom">8dp</dimen>
+    <dimen name = "profile_picture_margin_right">8dp</dimen>
+    <dimen name = "profile_picture_margin_left">16dp</dimen>
+
+
+    <dimen name="guide_line_end">1dp</dimen>
+    <dimen name="guide_line_start">0dp</dimen>
+
+
+    <dimen name="text_layout_start_margin">0dp</dimen>
+    <dimen name="text_layout_end_margin">0dp</dimen>
+    <dimen name="text_layout_top_margin">16dp</dimen>
+
+
+    <dimen name="button_margin_bottom">8dp</dimen>
+    <dimen name="button_margin_top">8dp</dimen>
+
+
+    <dimen name="gender_linear_layout_margin_top">8dp</dimen>
+    <dimen name="gender_linear_layout_margin_bottom">16dp</dimen>
+    <dimen name="gender_linear_layout_margin_end">8dp</dimen>
+
+
+    <dimen name="card_margin_bottom">4dp</dimen>
+    <dimen name="card_margin_start">4dp</dimen>
+    <dimen name="card_margin_end">4dp</dimen>
+
+
+    <dimen name="signup_button_margin_start">16dp</dimen>
+    <dimen name="button_margin_end">16dp</dimen>
+
+    <!--sign_up_activity land dimens-->
+    <dimen name="profile_picture_margin_start_land">8dp</dimen>
+    <dimen name="profile_picture_margin_top_land">8dp</dimen>
+    <dimen name="profile_picture_margin_end_land">8dp</dimen>
+
+
+    <dimen name="text_input_layout_margin_start_land">8dp</dimen>
+    <dimen name="text_input_layout_margin_end_land">8dp</dimen>
+    <dimen name="text_input_layout_margin_top_land">4dp</dimen>
+    <dimen name="text_input_layout_margin_bottom_land">8dp</dimen>
+
+
+    <dimen name="guide_line_start_land">0dp</dimen>
+    <dimen name="guide_line_ground_land">0dp</dimen>
+    <dimen name="guide_line_end_land">1dp</dimen>
+    <item name="guide_line_half_land" type="dimen" format="float">0.5</item>
+
+
+    <dimen name="linear_layout_margin_start_land">8dp</dimen>
+    <dimen name="linear_layout_margin_top_land">8dp</dimen>
+    <dimen name="linear_layout_margin_end_land">8dp</dimen>
+
+    <dimen name="signup_button_margin_start_land">100dp</dimen>
+    <dimen name="signup_button_margin_top_land">8dp</dimen>
+    <dimen name="signup_button_margin_end_land">100dp</dimen>
+    <dimen name="signup_button_margin_bottom">8dp</dimen>
+
+    <!-- main_activity dimens -->
+    <dimen name="card_margin_end_land">4dp</dimen>
+    <dimen name="card_margin_bottom_land">8dp</dimen>
+
+
+    <dimen name="hw_rec_start_margin">8dp</dimen>
+    <dimen name="hw_rec_top_margin">24dp</dimen>
+    <dimen name="hw_rec_bot_margin">16dp</dimen>
+    <dimen name="hw_rec_end_margin">8dp</dimen>
+    <dimen name="hw_rec_top_padding">20dp</dimen>
+
+
+    <dimen name="hw_settings_margin_start">8dp</dimen>
+
+
+    <dimen name="hwitem_card_bot_margin">16dp</dimen>
+
+
+    <dimen name="hw_item_title_margin_start">16dp</dimen>
+    <dimen name="hw_item_title_margin_top">8dp</dimen>
+
+
+    <dimen name="homework_margin_start">16dp</dimen>
+    <dimen name="homework_margin_end">8dp</dimen>
+    <dimen name="homework_margin_bottom">8dp</dimen>
+
+
+    <dimen name="hw_item_checkbox_margin_start">8dp</dimen>
+    <dimen name="hw_item_checkbox_margin_top">8dp</dimen>
+    <dimen name="hw_item_checkbox_margin_end">8dp</dimen>
+    <dimen name="hw_item_checkbox_margin_bottom">8dp</dimen>
+
+
+    <dimen name="homework_item_delete_margin_start">8dp</dimen>
+    <dimen name="homework_item_delete_margin_top">8dp</dimen>
+    <dimen name="homework_item_delete_margin_end">8dp</dimen>
+    <dimen name="homework_item_delete_margin_bottom">8dp</dimen>
+
+    <!--homework_dialog-->
+    <dimen name="hw_dialog_title_margin_start">32dp</dimen>
+    <dimen name="hw_dialog_title_margin_top">32dp</dimen>
+    <dimen name="hw_dialog_title_margin_end">32dp</dimen>
+
+    <dimen name="hw_dialog_material_margin_start">32dp</dimen>
+    <dimen name="hw_dialog_material_margin_top">64dp</dimen>
+    <dimen name="hw_dialog_material_margin_end">32dp</dimen>
+    <dimen name="hw_dialog_homework_margin_start">32dp</dimen>
+    <dimen name="hw_dialog_homework_margin_top">8dp</dimen>
+    <dimen name="hw_dialog_homework_margin_end">32dp</dimen>
+    <dimen name="hw_dialog_homework_margin_bottom">8dp</dimen>
+
+    <dimen name="hw_dialog_linear_spinner_marginLeft">32dp</dimen>
+    <dimen name="hw_dialog_linear_spinner_marginTop">64dp</dimen>
+    <dimen name="hw_dialog_linear_spinner_marginEnd">8dp</dimen>
+
+    <dimen name="dialog_width">400dp</dimen>
+    <dimen name="dialog_height">650dp</dimen>
+
+    <dimen name="hw_dialog_button_height">40dp</dimen>
+    <dimen name="hw_dialog_button_marginLeft">50dp</dimen>
+    <dimen name="hw_dialog_button_marginTop">24dp</dimen>
+    <dimen name="hw_dialog_button_marginEnd">50dp</dimen>
+    <dimen name="hw_dialog_button_marginBot">24dp</dimen>
+
+    <dimen name="hw_dialog_buttonAdd_marginBot">50dp</dimen>
+    <dimen name="hw_dialog_buttonAdd_marginTop">50dp</dimen>
+
+    <dimen name="hw_dialog_guide_begin">0dp</dimen>
+    <dimen name="hw_dialog_guide_end">0dp</dimen>
+
+
+    <!-- study_fragment dimens portrait -->
+       <!-- Main Grid -->
+    <dimen name="study_grid_margin_start">32dp</dimen>
+    <dimen name="study_grid_margin_top">32dp</dimen>
+    <dimen name="study_grid_margin_end">32dp</dimen>
+    <dimen name="study_grid_margin_bottom">32dp</dimen>
+    <dimen name="study_grid_vertical_spacing">20dp</dimen>
+
+       <!-- Material Dialog -->
+    <dimen name="text_input_margin_start">32dp</dimen>
+    <dimen name="text_input_margin_top">50dp</dimen>
+    <dimen name="text_input_margin_end">32dp</dimen>
+
+    <dimen name="book_input_margin_top">16dp</dimen>
+    <dimen name="book_input_margin_end">8dp</dimen>
+    <dimen name="book_input_margin_start">0dp</dimen>
+
+    <dimen name="page_layout_margin_top">16dp</dimen>
+    <dimen name="page_layout_margin_end">32dp</dimen>
+
+    <dimen name="book_add_margin_start">8dp</dimen>
+    <dimen name="book_add_margin_top">8dp</dimen>
+    <dimen name="book_add_margin_bottom">8dp</dimen>
+
+    <dimen name="seekBar_margin_start">8dp</dimen>
+    <dimen name="seekBar_margin_top">8dp</dimen>
+    <dimen name="seekBar_margin_end">8dp</dimen>
+
+
+
+    <dimen name="material_add_scroll_margin_start">8dp</dimen>
+    <dimen name="material_add_scroll_margin_top">50dp</dimen>
+    <dimen name="material_add_scroll_margin_end">8dp</dimen>
+    <dimen name="material_add_scroll_margin_bottom">50dp</dimen>
+
+    <dimen name="material_add_icons_margin_start">10dp</dimen>
+
+    <dimen name="material_add_icons_grid_margin_start">10dp</dimen>
+    <dimen name="material_add_icons_grid_margin_top">30dp</dimen>
+    <dimen name="material_add_icons_grid_margin_end">10dp</dimen>
+    <dimen name="material_add_iconsGrid_verSp">20dp</dimen>
+
+    <dimen name="material_diff_margin_start">8dp</dimen>
+    <dimen name="material_diff_margin_top">8dp</dimen>
+    <dimen name="material_diff_margin_bottom">0dp</dimen>
+
+    <dimen name="material_add_button_marginEnd">8dp</dimen>
+    <dimen name="material_add_button_marginStart">0dp</dimen>
+    <dimen name="material_add_button_marginBottom">8dp</dimen>
+    <dimen name="material_add_button_marginTop">0dp</dimen>
+
+    <dimen name="material_icon_margin_start">8dp</dimen>
+    <dimen name="material_icon_margin_top">24dp</dimen>
+    <dimen name="material_icon_margin_bottom">8dp</dimen>
+
+
+    <dimen name="materialDialogIconItem">80dp</dimen>
+
+        <!-- materials grid  -->
+    <dimen name="delete_material_width_height">20dp</dimen>
+    <dimen name="delete_material_margin_end">8dp</dimen>
+    <dimen name="material_icon_width_height">100dp</dimen>
+
+
+
+
+    <!-- add material dialog -->
+
+
+
+</resources>

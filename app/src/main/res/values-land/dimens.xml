@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Dialog -->
+    <dimen name="text_input_margin_start">8dp</dimen>
+    <dimen name="text_input_margin_top">8dp</dimen>
+    <dimen name="text_input_margin_end">8dp</dimen>
+
+    <dimen name="book_input_margin_top">8dp</dimen>
+    <dimen name="book_input_margin_end">8dp</dimen>
+    <dimen name="book_input_margin_start">8dp</dimen>
+
+    <dimen name="page_layout_margin_top">8dp</dimen>
+    <dimen name="page_layout_margin_end">8dp</dimen>
+
+    <dimen name="book_add_margin_start">8dp</dimen>
+    <dimen name="book_add_margin_top">8dp</dimen>
+    <dimen name="book_add_margin_bottom">8dp</dimen>
+
+    <dimen name="seekBar_margin_start">8dp</dimen>
+    <dimen name="seekBar_margin_top">8dp</dimen>
+    <dimen name="seekBar_margin_end">8dp</dimen>
+
+
+    <dimen name="material_add_scroll_margin_start">8dp</dimen>
+    <dimen name="material_add_scroll_margin_top">8dp</dimen>
+    <dimen name="material_add_scroll_margin_end">8dp</dimen>
+    <dimen name="material_add_scroll_margin_bottom">50dp</dimen>
+
+    <dimen name="material_add_icons_margin_start">10dp</dimen>
+    <dimen name="material_add_icons_grid_margin_start">10dp</dimen>
+    <dimen name="material_add_icons_grid_margin_top">30dp</dimen>
+    <dimen name="material_add_icons_grid_margin_end">10dp</dimen>
+    <dimen name="material_add_iconsGrid_verSp">20dp</dimen>
+
+    <dimen name="material_diff_margin_start">8dp</dimen>
+    <dimen name="material_diff_margin_top">8dp</dimen>
+    <dimen name="material_diff_margin_bottom">8dp</dimen>
+
+
+    <dimen name="material_add_button_marginEnd">8dp</dimen>
+    <dimen name="material_add_button_marginBottom">8dp</dimen>
+
+
+    <dimen name="material_icon_margin_start">8dp</dimen>
+    <dimen name="material_icon_margin_top">8dp</dimen>
+    <dimen name="material_icon_margin_bottom">8dp</dimen>
+
+    <dimen name="materialDialogIconItem">20dp</dimen>
+
+
+
+    <!-- study_fragment dimens portrait -->
+    <!-- Main Grid -->
+    <dimen name="study_grid_margin_start">32dp</dimen>
+    <dimen name="study_grid_margin_top">0dp</dimen>
+    <dimen name="study_grid_margin_end">32dp</dimen>
+    <dimen name="study_grid_margin_bottom">0dp</dimen>
+    <dimen name="study_grid_vertical_spacing">20dp</dimen>
+
+
+    <dimen name="material_add_button_marginStart">0dp</dimen>
+    <dimen name="material_add_button_marginTop">0dp</dimen>
+
+
+
+    <!-- materials grid  -->
+    <dimen name="delete_material_width_height">20dp</dimen>
+    <dimen name="delete_material_margin_end">8dp</dimen>
+    <dimen name="material_icon_width_height">100dp</dimen>
+
+    <!-- add material dialog -->
+    <dimen name="dialog_width">600dp</dimen>
+    <dimen name="dialog_height">400dp</dimen>
+</resources>
